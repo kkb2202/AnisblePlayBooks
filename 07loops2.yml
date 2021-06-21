@@ -1,6 +1,6 @@
 # Loop feature will be removed in version 2.11
 ---
-- hosts: localhost
+- hosts: appserver
   become: true
   tasks:
    - name: Install list of packages
